@@ -5,7 +5,7 @@
 
 ## Objective
 
-The objective of this project is to build a server-side application for an eatery, focusing on authentication and two additional endpoints. The project utilizes MongoDB for database management, Postman for API testing and documentation, and GitHub for version control.
+This project aims to develop authentication and two more endpoints with server-side app; that will cater an eatery. The project uses MongoDB as its data store, Postman for API-driven software development (ADSD), and GitHub as version control system
 
 ## Requirements
 
