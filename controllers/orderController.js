@@ -16,7 +16,7 @@ exports.createOrder = async (req, res) => {
       })
     );
     const total = orderItems.reduce(
-      (sum, item) => sum + item.menuItem.price * item.quantity,
+      (sum, item) => sum + item.price * item.quantity,
       0
     );
     const order = new Order({ user: userId, items: orderItems, total });
